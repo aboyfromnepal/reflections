@@ -1,0 +1,2 @@
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+It provides a space for files which needs to be committed while keeps those that doesn't require to be committed as separate. It helps to save the trouble of repeated committed of files with no changes in them.
