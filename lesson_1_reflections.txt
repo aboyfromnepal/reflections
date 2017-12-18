@@ -15,4 +15,5 @@ Since change in one can directly effect others
 How can you use the commands git log and git diff to view the history of files?
 git log will list all the commits done with a comment describing the commit. Thereby, git diff can be used to compared two commits by their ID in further details regarding lines addition/deletion.
 
-
+Now that you have your workspace set up, what do you want to try using Git for?
+Normal usage practice
