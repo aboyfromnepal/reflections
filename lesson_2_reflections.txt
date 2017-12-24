@@ -1,2 +1,19 @@
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 It provides a space for files which needs to be committed while keeps those that doesn't require to be committed as separate. It helps to save the trouble of repeated committed of files with no changes in them.
+
+How can you use the staging area to make sure you have one commit per logical change?
+By adding the selected changes to staging area using git add, I can commit a single or multiple related logical change/s as required.  
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help
+Especially, when we have to work on a features which can be developed independent on main version.
+Fixing known bugs.
+Experimental branch.
+
+How do the diagrams help you visualize the branch structure?
+Diagrams helps to look at the branches structure from above and helps to understand the layout since the early stage of repository till the latest state.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+After an experimental branch or version development underprocess has been successful, git merge helps to join the new devlopment to the main project. The diagram representation helps to visualize the development and analyze the commit history before the and after merge.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Git automatic merging helps to combine two branches efficiently by comparing changes line-based while  Manual merge can be troublesome as it requires manual intervention to check any conflict between two branch.
